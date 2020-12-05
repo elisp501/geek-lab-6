@@ -35,7 +35,7 @@ listaCambio.appendChild(fragmento2);
 
 formulario.addEventListener('submit', (e) => {
      e.preventDefault();
-     valorCantidadDinero = cantidadDeDinero.value; //Comentario de Elisita
+     valorCantidadDinero = cantidadDeDinero.value; //En este punto es donde se captura el valor de la variable con el .value (revisar linea 7).
 
      // leer la moneda seleccionada
      const monedaSelect = document.getElementById('moneda');
